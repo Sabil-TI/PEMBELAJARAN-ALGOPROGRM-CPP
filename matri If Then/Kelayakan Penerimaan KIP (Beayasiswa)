@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    // Variabel data mahasiswa
+    float ipk = 3.8;
+    int penghasilanOrangTua = 2000000;
+    bool punyaPrestasiInternasional = true;
+    bool sedangSanksi = false; // Jika true, otomatis gagal
+
+    cout << "Sistem Cek Kelayakan Beasiswa" << endl;
+
+    // Logika Percabangan dengan Operator Logika
+    if (!sedangSanksi) { // NOT: Mengecek jika statusnya TIDAK sedang sanksi
+        
+        // Gabungan AND dan OR
+        if ((ipk >= 3.5 && penghasilanOrangTua <= 3000000) || punyaPrestasiInternasional) {
+            cout << "Hasil: Selamat! Anda LAYAK menerima beasiswa." << endl;
+        } 
+        else {
+            cout << "Hasil: Maaf, Anda BELUM MEMENUHI syarat prestasi/ekonomi." << endl;
+        }
+
+    } else {
+        cout << "Hasil: Maaf, Anda TIDAK LAYAK karena sedang dalam sanksi akademik." << endl;
+    }
+
+    return 0;
+}
