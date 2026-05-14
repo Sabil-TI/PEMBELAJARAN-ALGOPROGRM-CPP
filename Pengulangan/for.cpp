@@ -9,4 +9,4 @@ int main () {
 
 //code ini akan menampilkan angka dari angka awal hingga angka akhir yang ditentukan (dalam contoh angka 1 hingga 5)
 //Increment/Penambahan (i++) berfungsi sebagai Menaikkan hitungan variabel i setiap kali satu putaran perulangan selesai dilakukan.
-// jika tidak ada Increment (i++) maka perulangan akan tetap 1 ("Perulangan ke 1"), coba saja dihapus
+// jika tidak ada Increment (i++) maka perulangan akan tetap 1 ("Perulangan ke 1"), coba saja dihapus.
